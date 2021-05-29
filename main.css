@@ -1,0 +1,83 @@
+* {
+  padding: 0;
+  margin: 0 auto;
+  box-sizing: border-box;
+}
+body {
+  background-color: #f7f9f9;
+}
+.title {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  text-align: center;
+  margin-bottom: 0.8rem;
+  color: #302b41;
+}
+.counter {
+  color: #fff;
+  font-size: 3rem;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  margin-bottom: 0.8rem;
+}
+main {
+  display: flex;
+  flex-direction: column;
+  background-color: #233c59;
+  align-items: center;
+  justify-content: center;
+  width: 50%;
+  height: 500px;
+}
+.buttons_container {
+  text-align: center;
+}
+/* buttona */
+.decrease {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  border: none;
+  background-color: #4e7ab4;
+  color: #fff;
+  font-size: 1.5rem;
+  margin-right: 5px;
+}
+
+.reset {
+  width: 60px;
+  height: 30px;
+  border-radius: 5%;
+  border: none;
+  background-color: #ab4459;
+  color: #fff;
+  font-size: 1rem;
+}
+
+.increase {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  border: none;
+  background-color: #a6cb58;
+  color: #fff;
+  font-size: 1.5rem;
+  text-align: center;
+  margin-left: 5px;
+}
+
+.decrease:hover {
+  cursor: pointer;
+  background-color: #4e7ab470;
+  transition: all 0.3s ease-out;
+}
+
+.reset:hover {
+  cursor: pointer;
+  background-color: #ab445975;
+  transition: all 0.3s ease-out;
+}
+
+.increase:hover {
+  cursor: pointer;
+  background-color: #a7cb5879;
+  transition: all 0.3s ease-out;
+}
